@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+	--color-transparent: rgba(0, 0, 0, 0.5);
+}
+
+body {
+	background: url("images/pexels-laura-james-6101962.jpg");
+	font-size: 5vmin;
+	color: white;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	background-color: var(--color-transparent);
+	padding: 0.5rem 0rem;
+	color: white;
+	border-radius: 5px;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+
+.countdown {
+	margin: 0 auto;
+}
+
+.countdown div {
+	display: inline-block;
+	font-size: 6vw;
+}
+
+.hours, .minutes, .seconds {
+	background: var(--color-transparent);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 5px;
+	color: white;
+	padding: 2vw;
+}
+
+::-selectors {
+	background-color: midnightblue;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+::-moz-selection {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+::selection {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
